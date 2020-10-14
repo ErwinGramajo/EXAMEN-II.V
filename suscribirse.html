@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMULARIO DE REGISTRO SCIII</title>
+
+	<link rel="stylesheet"
+		  type="text/css"
+		  href="bootstrap.css"
+		  />
+
+	<link rel="stylesheet"
+		  type="text/css"
+		  href="formulario.css"
+	      />	
+	</head>
+	<nav>
+		<div align="center">
+		<a 
+		href="home.html">
+			<img src="FOTOS/inicio.jpg" width="100" height="40">
+		</a>
+		
+		<a 
+		href="acerca.html">
+			<img src="FOTOS/quienessomos.jpg" width="160" height="40">
+		</a>
+
+		<a 
+		href="filosofia.html" class="greenlink">
+			<img src="FOTOS/filosofia.jpg" width="100" height="40">
+		</a>
+
+		<a 
+		href="producto.html" class="greenlink">
+			<img src="FOTOS/productos.jpg" width="100" height="40">
+		</a>
+		<a 
+		href="suscribirse.html" class="greenlink">
+			<img src="FOTOS/suscribirse.jpg" width="100" height="40">
+		</a>
+		</div>
+	</nav>
+
+</head>
+<body>
+	<h2 class="titulo">Formulario de Registro</h2>
+	<div class="group">
+		<form action="registro.php" method="POST" class="form">
+			<table>
+				<tr>
+					<td><input type="text" name="dpi" class="campos" placeholder="DPI" required/></td>
+				</tr>
+
+				<tr>
+					<td><input type="text" name="nombre" class="campos" placeholder="Nombre Completo" required/></td>
+				</tr>
+
+				<tr>
+					<td><input type="text" name="numero" class="campos" placeholder="Numero" required/></td>
+				</tr>
+
+				<tr>
+					<td><input type="email" name="e-Mail" class="campos" placeholder="e-Mail" required/></td>
+				</tr>
+
+				<tr>
+					<td><input type="text" name="sexo" class="campos" placeholder="Sexo" required/></td>
+				</tr>
+
+				<tr>
+					<td><input type="text" name="edad" class="campos" placeholder="Edad" required/></td>
+				</tr>
+
+				<tr>
+					<td><input type="text" name="ciudad" class="campos" placeholder="Ciudad" required/></td>
+				</tr>
+
+				<tr>
+					<td><input type="text" name="pais" class="campos" placeholder="Pais" required/></td>
+				</tr>
+			</table>
+			<p>
+			<input type="submit" name="suscrito" class="boton" value="Suscribirse">
+			<input type=reset value="Borrar" class="boton" name="Borrar Campos">
+			</p>
+
+		</form>
+
+	</div>
+</body>
+</html>

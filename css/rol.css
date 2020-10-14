@@ -1,0 +1,36 @@
+
+
+body {
+	color:Red;
+
+}
+p{
+	color:Purple;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+h1{
+	color: Brown;
+	font-size: 30px;
+	font-family: Arial;
+}
+
+h2{
+	color: Green;
+	font-size: 20px;
+	font-family:Castellar; 
+}
+
+ul{
+	color: Orange;
+	font-size: 15px;
+	font-family: Calibri
+
+}
+
+ol{
+	color: Orange;
+	font-size: 15px;
+	font-family: Calibri;
+}

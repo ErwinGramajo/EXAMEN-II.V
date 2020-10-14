@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Validar Contraseña</title>
+<script>
+	function comprobarClave(){
+		clave1 = document.f1.clave1.value
+		clave2 = document.f1.clave2.value
+
+		if (clave1 == "Erwin" && clave2 == "Gramajo") {
+			alert("Los Datos Coinciden...\n Bienvenido");
+			var href = "home.html";
+			window.location = href;
+		}else{
+			alert("Las claves son distintas...\n Intentelo de Nuevo");
+			var href = "index.html";
+			window.location = href;
+		};
+	} 
+</script>
+</head>
+<body bgcolor="#FFD7B4">
+	<h1><marquee style="color:red ;background:yellow">Validar Contraseña</marquee></h1>
+	<br>
+		Escribe el usuario y la contraseña y vuelve a reingresar la contraseña, una en cada campo, y pulsa el botón. Javascript te dirá si las dos son iguales.
+	<br>
+	<form action = "" name = "f1">
+		<p>Usuario: <input type="text" name="clave1" size="20"><br>
+		<p>Contraseña: <input type="password" name="clave2" size="20"><br>
+		<p><input type="button" value="Ingresar" name="Comprobar si son Iguales" onclick="comprobarClave()" style="color:red; background-color:yellow;">
+		<p><input type=reset value="Borrar" name="Borrar Campos" style="color:black; background-color:silver;">
+	</form>
+</body>
+</html>

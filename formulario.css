@@ -1,0 +1,45 @@
+body{
+	background-color: #F3E2A9;
+}
+
+.form{
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 30px; 
+	border-radius: 4px; 
+	font-family: Arial;
+	color: white;
+}
+
+.titulo{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: red;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 34px;
+}
+
+.campos{
+	text-align: center;
+	width: 150%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+	border: none;
+	font-size: 14px;
+	border-left: 20px solid #088A85;
+	border-right: 20px solid #088A85;
+}
+
+.boton{
+	padding: 10px;
+	width: 100%;
+	background-color:#088A85;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
